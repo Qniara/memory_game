@@ -1,5 +1,5 @@
 
-var cards = ["epi_studio.JPG", "jessica.JPG", "greeny.JPG", "epi_ebony.JPG", "cherry.JPG", "standard.JPG", "cherry.JPG", "jessica.JPG", "epi_studio.JPG", "epi_ebony.JPG", "greeny.JPG", "standard.JPG"];
+var cards = ["epi_studio.jpg", "jessica.jpg", "greeny.jpg", "epi_ebony.jpg", "cherry.jpg", "standard.jpg", "cherry.jpg", "jessica.jpg", "epi_studio.jpg", "epi_ebony.jpg", "greeny.jpg", "standard.jpg"];
 
 var c0 = document.getElementById('c0');
 var c1 = document.getElementById('c1');
