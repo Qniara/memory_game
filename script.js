@@ -1,5 +1,5 @@
 
-var cards = ["epi_studio.jpg", "jessica.jpg", "greeny.jpg", "epi_ebony.jpg", "cherry.jpg", "standard.jpg", "cherry.jpg", "jessica.jpg", "epi_studio.jpg", "epi_ebony.jpg", "greeny.jpg", "standard.jpg"];
+var cards = ["epi_studio.JPG", "jessica.JPG", "greeny.JPG", "epi_ebony.JPG", "cherry.JPG", "standard.JPG", "cherry.JPG", "jessica.JPG", "epi_studio.JPG", "epi_ebony.JPG", "greeny.JPG", "standard.JPG"];
 
 var c0 = document.getElementById('c0');
 var c1 = document.getElementById('c1');
@@ -43,7 +43,7 @@ function revealCard(nr)
 	if (opacityValue != 0 && lock == false)
 	{
 		lock = true;
-		var obraz = "url("+cards[nr]+")";
+		var obraz = "url(img/" + cards[nr] + ")";
 		$('#c'+nr).css('background-image', obraz);
 		$('#c'+nr).addClass('cardA');
 		$('#c'+nr).removeClass('card');
@@ -86,11 +86,11 @@ function hide2Cards(nr1, nr2)
 }
 function restore2Cards(nr1, nr2)
 {
-	$('#c'+nr1).css('background-image', 'url(karta.png)');
+	$('#c'+nr1).css('background-image', 'url(img/karta.png)');
 	$('#c'+nr1).addClass('card');
 	$('#c'+nr1).removeClass('cardA');	
 
-	$('#c'+nr2).css('background-image', 'url(karta.png)');
+	$('#c'+nr2).css('background-image', 'url(img/karta.png)');
 	$('#c'+nr2).addClass('card');
 	$('#c'+nr2).removeClass('cardA');
 	
