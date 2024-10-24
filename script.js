@@ -84,15 +84,15 @@ function hide2Cards(nr1, nr2)
 	
 	lock = false;
 }
-function restore2Cards(nr1, nr2)
-{
-	$('#c'+nr1).css('background-image', 'url(karta.png)');
-	$('#c'+nr1).addClass('card');
-	$('#c'+nr1).removeClass('cardA');	
+function restore2Cards(nr1, nr2) {
+    $('#c'+nr1).css('background-image', 'url(karta.png)');
+    $('#c'+nr1).addClass('card');
+    $('#c'+nr1).removeClass('cardA');   
 
-	$('#c'+nr2).css('background-image', 'url(karta.png)');
-	$('#c'+nr2).addClass('card');
-	$('#c'+nr2).removeClass('cardA');
-	
-	lock = false;
+    $('#c'+nr2).css('background-image', 'url(karta.png)');
+    $('#c'+nr2).addClass('card');
+    $('#c'+nr2).removeClass('cardA');
+    
+    lock = false;
 }
+
